@@ -1,5 +1,15 @@
-body {
-    background-color: black;
-    font-size: 21px;
-    color: white;
+/*vars*/
+.theme-light {
+    --fontcolortitle: $dark1;
+    --fontcolortext: $dark2;
+    --colorelement: $dark4;
+    --bgcard: $light2;
+}
+
+.theme-dark {
+    --fontcolortitle: $light1;
+    --fontcolortext: $light3;
+    --colorelement: $dark4;
+    --bgcard: #000;
+    --bgcolor: $dark1;
 }

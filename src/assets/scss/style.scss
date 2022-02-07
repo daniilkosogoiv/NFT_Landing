@@ -1,5 +1,34 @@
-body {
-    background-color: black;
-    font-size: 21px;
-    color: white;
+/*vars*/
+
+$dark1: #111111;
+$dark2: #555555;
+$dark3: #777777;
+$dark4: #999999;
+$light1: #FFFFFF;
+$light2: #EEEEEE;
+$light3: #CCCCCC;
+$orange: linear-gradient(0deg, #FF8139, #FF8139), #FF8139;
+$pink: #FF3998;
+$green: #39FFA0;
+$red: #FF3939;
+$lightgreen: #EDFFF6;
+$lightorange: #FFF0E8;
+$gradient: linear-gradient(121deg, #ff3939,#ff8139,#39ffa0);
+
+.theme-light {
+    --fontcolortitle: #111111;
+    --fontcolortext: #555555;
+    --colorelement: #999999;
+    --bgcard: #EEEEEE;
 }
+
+
+.theme-dark {
+    --fontcolortitle: #FFFFFF;
+    --fontcolortext: #CCCCCC;
+    --colorelement: #999999;
+    --bgcard: #000000;
+    --bgcolor: #111111;
+}
+
+
