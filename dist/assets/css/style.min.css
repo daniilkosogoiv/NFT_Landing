@@ -539,4 +539,69 @@ font-family: 'Varela Round', sans-serif;
   background: url(../images/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.release__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--bgcolor);
+  padding: 0 0 43px;
+}
+.release__text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  padding: 0 0 32px;
+  color: var(--fontcolortext);
+}
+.release__link {
+  text-decoration: none;
+  color: #ff3998;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  padding: 0 3px 5px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  transition: all 0.1s linear;
+}
+.release__link:hover {
+  border-bottom: 2px solid #ff3998;
+}
+.release__info {
+  padding: 0 75px 75px 0;
+}
+.release__sub {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #ff3998;
+}
+.release__name {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--bgcolor);
+  padding: 12px 0;
+}
+.release__count {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+  color: #777777;
 }
