@@ -387,8 +387,9 @@ font-family: 'Varela Round', sans-serif;
 .deg {
   transform: rotate(5deg);
   z-index: 1;
-  right: 337px;
-  bottom: -63px;
+  right: 197px;
+  bottom: -96px;
+  background: #000000;
 }
 
 .card {
@@ -417,6 +418,15 @@ font-family: 'Varela Round', sans-serif;
   font-size: 14px;
   line-height: 100%;
   color: var(--fontcolortitle);
+  padding: 12px 0;
+}
+.card__name-mini--white {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: var(--bgcard);
   padding: 12px 0;
 }
 .card__id-mini {
@@ -450,4 +460,56 @@ font-family: 'Varela Round', sans-serif;
 
 .tright {
   text-align: right;
+}
+
+/*press*/
+.press {
+  margin: 100px 0 0;
+}
+.press__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.press__element {
+  display: flex;
+  align-items: center;
+}
+.press__name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 31.0199px;
+  line-height: 36px;
+  color: #999999;
+}
+.press__img {
+  padding: 0 15px 0 0;
+}
+
+/*showcase*/
+.showcase {
+  margin: 100px 0 0;
+}
+.showcase__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--bgcolor);
+}
+.showcase__subtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--fontcolortext);
+  padding: 24px 0 50px;
+}
+.showcase__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

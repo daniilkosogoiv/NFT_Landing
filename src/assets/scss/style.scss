@@ -386,10 +386,7 @@ font-family: 'Varela Round', sans-serif;
     &__right {
         position: relative;
     }
-
-
 }
-
 
 /*card-mini*/
 .card-mini {
@@ -397,10 +394,8 @@ font-family: 'Varela Round', sans-serif;
     max-height: 288px;
     background: $light2;
     border-radius: 16px;
-    
+
     position: absolute;
-    
-    
 }
 .deeg {
     transform: rotate(-5deg);
@@ -411,11 +406,11 @@ font-family: 'Varela Round', sans-serif;
 .deg {
     transform: rotate(5deg);
     z-index: 1;
-    right: 337px;
-    bottom: -63px;
+    right: 197px;
+    bottom: -96px;
+    background: #000000;
 }
 .card {
-    
     background: $light2;
     border-radius: 16px;
     &__bottom-mini {
@@ -441,6 +436,15 @@ font-family: 'Varela Round', sans-serif;
         line-height: 100%;
         color: var(--fontcolortitle);
         padding: 12px 0;
+        &--white {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 100%;
+            color: var(--bgcard);
+            padding: 12px 0;
+        }
     }
     &__id-mini {
         font-family: Inter;
@@ -470,10 +474,63 @@ font-family: 'Varela Round', sans-serif;
         width: 230px;
         height: 200px;
     }
-    
 }
-
 
 .tright {
     text-align: right;
+}
+
+/*press*/
+
+.press {
+    margin: 100px 0 0;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__element {
+        display: flex;
+        align-items: center;
+    }
+    &__name {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 31.0199px;
+        line-height: 36px;
+        color: $dark4;
+    }
+    &__img {
+        padding: 0 15px 0 0;
+    }
+}
+
+/*showcase*/
+
+.showcase {
+    margin: 100px 0 0;
+    &__title {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        color: var(--bgcolor);
+    }
+
+    &__subtitle {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--fontcolortext);
+        padding: 24px 0 50px;
+    }
+    &__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
