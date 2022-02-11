@@ -47,3 +47,23 @@ function toggleTheme() {
     document.getElementById('slider').checked = true;
   }
 })();
+
+
+function toggleTheme() {
+  if (localStorage.getItem('theme') === 'theme-dark-imgt') {
+      setTheme('theme-light-imgt');
+  } else {
+      setTheme('theme-dark-imgt');
+  }
+}
+
+// Immediately invoked function to set the theme on initial load
+(function () {
+  if (localStorage.getItem('theme') === 'theme-dark-imgt') {
+      setTheme('theme-dark-imgt');
+      document.getElementById('slider').checked = false;
+  } else {
+      setTheme('theme-light-imgt');
+    document.getElementById('slider').checked = true;
+  }
+})();
